@@ -7,6 +7,9 @@
 python3 excercise1.py title.basics.tsv title.akas.tsv outfile.tsv or 
 python3 excercise1.py title.basics.tsv title.akas.tsv
 
+
+### Algorithm Description: 
+
 In order to merge the 2 files we create the merge_join(first_filename, second_filename, output_filename) function. As first_filename and second_filename we define the names of the 2 input files to be merged, and as output_filename the name of the file that will contain the merge.
 We read the first two lines from both files. Those lines contain the headers of the files. We merge them in order to have the header of the output file. 
 After that we move on to the next line in both files: line_1 = first_file.readline() and line_2 =second_file.readline().
